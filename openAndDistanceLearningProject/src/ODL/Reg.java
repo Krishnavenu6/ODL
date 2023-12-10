@@ -106,7 +106,7 @@ public class Reg {
 			    System.out.println("Enter 1 for  Python Learning");
 			    System.out.println("Enter 2 for JavaScript Learning");
 			    System.out.println("Enter 3 for  Java  Learning");
-			    System.out.println("Enter 4 for BootStrap Learning");
+			    System.out.println("Enter 4 for cpp Learning");
 			    Scanner sc1=new Scanner(System.in);
 			    int choice=sc1.nextInt();
 			    switch(choice) {
@@ -142,7 +142,7 @@ public class Reg {
 			    	break;
 			    case 4:
 			    	try {
-						IL.BootStrapLearn();
+			    		IL.cppLearn();
 					} catch (URISyntaxException e) {
 						// TODO Auto-generated catch block
 						e.printStackTrace();

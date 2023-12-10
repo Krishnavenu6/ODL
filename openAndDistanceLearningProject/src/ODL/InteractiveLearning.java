@@ -111,7 +111,7 @@ public class InteractiveLearning {
 	        }
 	        JavaLearn();
 	    }
-		public void BootStrapLearn() throws URISyntaxException, IOException {
+		public void cppLearn() throws URISyntaxException, IOException {
 	        System.out.println("Enter 1 for Course Structure");
 	        System.out.println("Enter 2 for Course Mock Test");
 	        System.out.println("Enter 3 for Online Compiler");
@@ -121,21 +121,21 @@ public class InteractiveLearning {
 	        case 1:
             	Desktop desktop = java.awt.Desktop.getDesktop();
             	
-  			    URI oURL1 = new URI("https://roadmap.sh/frontend");
+  			    URI oURL1 = new URI("https://roadmap.sh/cpp");
   			    desktop.browse(oURL1);
                 
                 break;
             case 2:
                Desktop desktop1 = java.awt.Desktop.getDesktop();
             	
-  			   URI oURL2 = new URI("https://www.w3schools.com/quiztest/quiztest.asp?qtest=BOOTSTRAP");
+  			   URI oURL2 = new URI("https://www.w3schools.com/quiztest/quiztest.asp?qtest=CPP");
   			   desktop1.browse(oURL2);
                 
                 break;
             case 3:
                Desktop desktop2 = java.awt.Desktop.getDesktop();
             	
-   			   URI oURL3 = new URI("https://onecompiler.com/html/3x2894xaw");
+   			   URI oURL3 = new URI("https://www.programiz.com/cpp-programming/online-compiler/");
    			   desktop2.browse(oURL3);
                  
                  break;
@@ -143,9 +143,9 @@ public class InteractiveLearning {
                 System.out.println("You Entered A Wrong Number");
                 break;
 	        }
-	        BootStrapLearn();
-	    }
-	    
+	        cppLearn();
+		}
+	
   
 }
 

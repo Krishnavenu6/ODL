@@ -12,10 +12,10 @@ public class ParticipateQuiz {
 		System.out.println("Enter 1 for Python Quiz");
 		System.out.println("Enter 2 for JavaScript Quiz");
 		System.out.println("Enter 3 for java Quiz");
-		System.out.println("Enter 4 for CSS,BootStrap Quiz");
-		
+		System.out.println("Enter 4 for cpp Quiz");
+		System.out.println("-----------------------");
 		int select=sc.nextInt();
-		select=1;
+	
 		int Count=0;
 		if(select==1) {
 		    System.out.println("python created in the year ?");
@@ -70,7 +70,8 @@ public class ParticipateQuiz {
 			}	
 			System.out.println(Count);
       	}
-		else if(select==2) {
+		
+		else if (select==2) {
 			System.out.println("Inside which HTML element do we put the JavaScript?");
 			System.out.println("options: 1)<js> 2)<javascript> 3)<script> 4)<scripting>");
 			int op=sc.nextInt();
@@ -178,50 +179,50 @@ public class ParticipateQuiz {
 			
 		}
 		else if(select==4){
-			System.out.println("Who developed the bootstrap?");
-			System.out.println("options: 1)Guido van Rossum 2)James Gosling 3)Dennis Ritchie 4)Mark Otto and Jacob Thornton");
+			System.out.println("Who invented C++?");
+			System.out.println("options: 1)Steve Jobs 2)James Gosling 3)Bjarne Stroustrup 4)Rasmus Lerdorf");
 			int op=sc.nextInt();
-			if(op==4) {
+			if(op==3) {
 				System.out.println("Answer is Correct");
 				Count=Count+1;
 			}
 			else {
 				System.out.println("Answer is Wrong");
 			}
-			System.out.println("Is Bootstrap3 mobile-first?");
-			System.out.println("options: 1)True 2)False 3)Can't say 4)May be");
+			System.out.println("Which of the following user-defined header file extension used in c++?");
+			System.out.println("options: 1)hg 2)cpp 3)h 4) hf");
 			int op1=sc.nextInt();
-			if(op1==1) {
+			if(op1==3) {
 				System.out.println("Answer is Correct");
 				Count=Count+1;
 			}
 			else {
 				System.out.println("Answer is Wrong");
 			}
-			System.out.println("How many columns are allowed in a bootstrap grid system?");
-			System.out.println("options: 1)2 2)12 3)3 4)all ");
+			System.out.println("Which of the following is a correct identifier in C++?");
+			System.out.println("options: 1)VAR_1234 2)$var_name 3)7VARNAME 4)7var_name ");
 			int op2=sc.nextInt();
-			if(op2==2) {
+			if(op2==1) {
 				System.out.println("Answer is Correct");
 				Count=Count+1;
 			}
 			else {
 				System.out.println("Answer is Wrong");
 			}
-			System.out.println("Which of the following class in bootstrap is used to create a big box for calling extra attention?");
-			System.out.println("options: 1).box 2).container 3).container-fluid 4).jumbotron");
+			System.out.println("Which of the following is not a type of Constructor in C++?");
+			System.out.println("options: 1)Default constructor  2)Parameterized constructor 3)Friend constructor 4)Copy constructor");
 			int op3=sc.nextInt();
-			if(op3==4) {
+			if(op3==3) {
 				System.out.println("Answer is Correct");
 				Count=Count+1;
 			}
 			else {
 				System.out.println("Answer is Wrong");
 			}
-			System.out.println("Which of the following class is used to create a black navigation bar?");
-			System.out.println("options: 1).navbar-default 2).navbar-inverse 3).navbar-black 4).navbar-dark");
+			System.out.println("Which of the following approach is used by C++?");
+			System.out.println("options: 1)Left-right 2)Right-left 3)Bottom-up 4)Top-down");
 			int op4=sc.nextInt();
-			if(op4==2) {
+			if(op4==3) {
 				System.out.println("Answer is Correct");
 				Count=Count+1;
 			}
@@ -264,4 +265,10 @@ public class ParticipateQuiz {
 }
 	
 }
+
+
+
+
+
+
 
