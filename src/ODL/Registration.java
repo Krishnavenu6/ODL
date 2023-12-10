@@ -85,6 +85,7 @@ public class Registration {
 		  System.out.println("Enter 2 to participate Quiz");
 		  System.out.println("Enter 3 to Interactive Learning");
 		  System.out.println("Enter 4 to Course Videos");
+		  System.out.println("Enter 5 to Give Feedback");
 		  
 		  int select=sc.nextInt();
 		  CourseDetails cd= new CourseDetails();
@@ -107,6 +108,7 @@ public class Registration {
 			    System.out.println("Enter 2 for JavaScript Learning");
 			    System.out.println("Enter 3 for  Java  Learning");
 			    System.out.println("Enter 4 for cpp Learning");
+			    System.out.println("Enter 5 for Main Menu");
 			    Scanner sc1=new Scanner(System.in);
 			    int choice=sc1.nextInt();
 			    switch(choice) {
@@ -150,15 +152,34 @@ public class Registration {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-			        break;
+						break;
+				    case 5:
+				    	Registration reg=new Registration();
+				    	reg.home();
+				    default:
+				    	System.out.println("Invalid Input");
 			    }
-		  case 4:
+			    
+			    
+		 case 4: 
 			    regApplication rA=new regApplication();
 			    rA.videolink();
 			    break;
-
-		    }
-	}
-	
-
-}
+		  
+			    
+			    case 5:
+					  Feedback FB=new Feedback();
+			try {
+				FB.feedback();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			
+			}
+					  break;
+					  
+				 default:
+					 System.out.println("Invalid Input");
+				    }
+	}	 
+			}
