@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class ParticipateQuiz {
 	Scanner sc=new Scanner(System.in);
 
+	
+	
 	public void ParticipateQuiz1() {
-		// TODO Auto-generated method stub
+		
 		System.out.println("Select a Couse for Quiz");
 		System.out.println("-----------------------");
 		System.out.println("Enter 1 for Python Quiz");
@@ -263,6 +265,14 @@ public class ParticipateQuiz {
 		}
 
 }
+	
+	
+	
+	
+	
+	
+	
+	
 	
 }
 

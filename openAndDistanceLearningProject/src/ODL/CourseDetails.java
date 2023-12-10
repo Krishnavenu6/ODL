@@ -7,6 +7,8 @@ public class CourseDetails {
 
 	public void CourseDetails1() throws Exception{
 		// TODO Auto-generated method stub
+		
+		
 		System.out.println("Select from Available Couses");
 		System.out.println("----------------------------");
 		System.out.println("1.Python Programming Course");

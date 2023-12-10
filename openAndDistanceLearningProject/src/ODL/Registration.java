@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class Reg {
+public class Registration {
 	String Name;
 	String Emailid;
 	String Password;
@@ -29,7 +29,7 @@ public class Reg {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 		Connection teja=null;
@@ -156,7 +156,7 @@ public class Reg {
 			    regApplication rA=new regApplication();
 			    rA.videolink();
 			    break;
-//			  InteractiveLearning();
+
 		    }
 	}
 	

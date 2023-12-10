@@ -52,7 +52,7 @@ public class Log{
 					if(email.equals(rs.getString("Emailid")) && Password.equals(rs.getString("Password"))) {
 	
 					  user=2;
-					  Reg r=new Reg();
+					  Registration r=new Registration();
 					  r.home();
 //					  System.out.println("----------------------------------------");
 //					  System.out.println("You are Logged into Website");

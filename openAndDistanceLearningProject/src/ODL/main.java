@@ -2,7 +2,7 @@ package ODL;
 
 import java.util.Scanner;
 
-public class ODLmain {
+public class main {
 	static Scanner sc=new Scanner(System.in);
   
 	public static void main(String[] args) throws Exception {
@@ -14,7 +14,7 @@ public class ODLmain {
 		int choice=sc.nextInt();
 		switch(choice) {
 		case 1:
-			Reg reg=new Reg();
+			Registration reg=new Registration();
 			reg.registers();
 			break;
 		

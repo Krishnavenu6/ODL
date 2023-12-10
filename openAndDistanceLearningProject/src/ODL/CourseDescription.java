@@ -25,7 +25,7 @@ public class CourseDescription {
 		    	 CourseDetails cd=new CourseDetails();
 		    	 cd.CourseDetails1();
 		     case 2:
-		    	 Reg r=new Reg();
+		    	 Registration r=new Registration();
 		    	 r.home();
 		     }
 	}
@@ -48,7 +48,7 @@ public class CourseDescription {
 		    	 CourseDetails cd=new CourseDetails();
 		    	 cd.CourseDetails1();
 		     case 2:
-		    	 Reg r=new Reg();
+		    	 Registration r=new Registration();
 		    	 r.home();
 		     }
 	}
@@ -71,7 +71,7 @@ public class CourseDescription {
 		    	 CourseDetails cd=new CourseDetails();
 		    	 cd.CourseDetails1();
 		     case 2:
-		    	 Reg r=new Reg();
+		    	 Registration r=new Registration();
 		    	 r.home();
 		     }
     }		    
@@ -92,7 +92,7 @@ public class CourseDescription {
 			    	 CourseDetails cd=new CourseDetails();
 			    	 cd.CourseDetails1();
 			     case 2:
-			    	 Reg r=new Reg();
+			    	 Registration r=new Registration();
 			    	 r.home();
 			     }
 		  
