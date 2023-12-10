@@ -69,7 +69,7 @@ public class regApplication {
 //		    	   break;
 //		       }
 		      break;
-			  case 4:desktop.browse(oURL3);
+			  case 4:desktop.browse(oURL4);
 //			  System.out.println("Enter 1 to Change Language");
 //		        System.out.println("Enter 2 for Main Menu");
 //		        int choice3=sc.nextInt();
